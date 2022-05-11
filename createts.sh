@@ -3,13 +3,13 @@
 
 echo
 echo
-echo -e "Step1: Create Truststore" 
+echo "Step1: Create Truststore" 
 echo
 keytool -genkey -alias temp -keystore truststore.jks -storepass demosdemos
 
 echo
 echo
-echo -e 'Step2: Delete temporary keystore temp'
+echo 'Step2: Delete temporary keystore temp'
 echo
 keytool -delete -alias temp -keystore truststore.jks
 
