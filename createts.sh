@@ -7,7 +7,7 @@ echo
 echo 'There are 6 steps in the script'
 echo "Step1: Create Truststore"
 echo 'Step2: Delete temporary keystore temp'
-echo 'Step3: Generate Certificate'
+echo 'Step3: Generate Certificate Signing Request'
 echo 'Step4: Generate Private Key'
 echo 'Step5: Generate self signed certificate'
 echo 'Step6: Import Certificate into Trust Store'
